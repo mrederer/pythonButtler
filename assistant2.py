@@ -22,7 +22,6 @@ def generate_response(prompt):
     n=1,
     stop=None,
     temperature=0.7)
-
     message = completions.choices[0].message.content.strip()
     return message
 
